@@ -1,4 +1,6 @@
-##### Thu Nov 30 2017 Sundeep Anand <suanand@redhat.com>
+=======
+##### Tue Dec 05 2017 Sundeep Anand <suanand@redhat.com> 
+* Add Koji API Resources and YML based TS Jobs
 * Making ready for openshift deployment, fix static files
 
 ##### Wed Nov 15 2017 Sundeep Anand <suanand@redhat.com> - release_0.1.4

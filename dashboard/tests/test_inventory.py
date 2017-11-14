@@ -18,8 +18,10 @@ from fixture.style import NamedDataStyle
 from fixture.django_testcase import FixtureTestCase
 from dashboard.managers.inventory import InventoryManager
 from dashboard.models import ReleaseStream
-from dashboard.tests.testdata.db_fixtures import (LanguagesData, LanguageSetData, TransPlatformData, ReleaseStreamData,
-                                                  StreamBranchesData)
+from dashboard.tests.testdata.db_fixtures import (
+    LanguagesData, LanguageSetData, TransPlatformData,
+    ReleaseStreamData, StreamBranchesData
+)
 
 db_fixture = DjangoFixture(style=NamedDataStyle())
 
